@@ -28,46 +28,6 @@
             </div>
         </div>
     </div>
-
-    <section class="food-search text-center">
-        <div class="container">
-            <form action="">
-                <input type="search" name="search" placeholder="Search for food...">
-                <input type="submit" name="submit" value="Search" class="btn btn-prim">
-            </form>
-        </div>
-    </section>
-
-    <section class="explore_food">
-        <div class="container-fluid">
-            <h2 class="text-center"> Explore Food</h>
-
-                <div>
-                    <a href="category-foods.php">
-                        <div class="box-3 float-container-fluid">
-                            <img src="image/pizza.jpg" alt="Pizza" class="img-responsive img-curve">
-                            <h3 class="float-text text-white">Pizza</h3>
-                        </div>
-                    </a>
-
-                    <a href="category-foods.php">
-                        <div class="box-3 float-container-fluid">
-                            <img src="image/burger.jpg" alt="Bugger" class="img-responsive img-curve">
-                            <h3 class="float-text text-white">Bugger</h3>
-                        </div>
-                    </a>
-
-                    <a href="category-foods.php">
-                        <div class="box-3 float-container-fluid">
-                            <img src="image/momo.jpg" alt="Momo" class="img-responsive img-curve">
-                            <h3 class="float-text text-white">Dumpling</h3>
-                        </div>
-                        <div class="clear-float"></div>
-                    </a>
-                </div>
-        </div>
-    </section>
-
     <section class="food-menu">
         <div class="container-fluid">
             <h2 class="text-center">Food menu</h2>
