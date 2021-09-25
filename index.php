@@ -36,14 +36,43 @@
             </form>
         </div>
     </div>
-    
-        <!-- Optional JavaScript; choose one of the two! -->
+    <section class="explore_food">
+        <div class="container-fluid">
+            <h2 class="text-center"> Explore Food</h>
 
-        <!-- Option 1: Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+                <div>
+                    <a href="category-foods.php">
+                        <div class="box-3 float-container">
+                            <img src="image/pizza.jpg" alt="Pizza" class="img-responsive img-curve">
+                            <h3 class="float-text text-blue">Pizza</h3>
+                        </div>
+                    </a>
 
-        <!-- Option 2: Separate Popper and Bootstrap JS -->
-        <!--
+                    <a href="category-foods.php">
+                        <div class="box-3 float-container">
+                            <img src="image/burger.jpg" alt="Bugger" class="img-responsive img-curve">
+                            <h3 class="float-text text-blue">Bugger</h3>
+                        </div>
+                    </a>
+
+                    <a href="category-foods.php">
+                        <div class="box-3 float-container">
+                            <img src="image/momo.jpg" alt="Momo" class="img-responsive img-curve">
+                            <h3 class="float-text text-blue">Dumpling</h3>
+                        </div>
+                        <div class="clear-float"></div>
+                    </a>
+                </div>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
     -->

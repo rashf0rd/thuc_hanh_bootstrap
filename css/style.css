@@ -36,3 +36,27 @@
     border-radius: 8px;
 
 }
+.btn {
+    Padding: 1%;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-prim {
+    background: rgb(252, 110, 134);
+    color: white;
+    cursor: pointer;
+}
+
+.btn-prim:hover {
+    background: red;
+}
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
