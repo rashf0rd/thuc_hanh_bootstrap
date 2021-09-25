@@ -1,41 +1,37 @@
-.header{
+.header {
     height: 100px;
     display: block;
     overflow: auto;
-    background-color: white;
 }
+
 .container-fluid {
     width: 80%;
     margin: 0 auto;
     padding: 1%;
 }
-.menu-info{
-    float: right;
-    width: 30%;
-    height: 70%;
-    background-color: white;
+
+a {
+    color: rgb(253, 141, 141);
+    margin: 5% auto;
+    text-decoration: none;
 }
 
-.logo-info{
-    float: left;
-    width: 15%;
-    height: auto;
-    background-color: white;
+a:hover {
+    color: rgb(255, 0, 0);
 }
-.find-food{
-    background-image: url(../image/bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 6%;
 
+.text-center {
+    text-align: center;
 }
-.find-food input[type="search"] {
-    width: 50%;
-    padding: 1%;
-    border-radius: 8px;
 
+.text-right {
+    text-align: right;
 }
+
+.text-white {
+    color: white;
+}
+
 .btn {
     Padding: 1%;
     border: none;
@@ -51,12 +47,101 @@
 .btn-prim:hover {
     background: red;
 }
-.categories{
+
+.img-responsive {
+    width: 100%;
+}
+
+.img-curve {
+    border-radius: 20px;
+}
+
+.float-container-fluid {
+    position: relative;
+}
+
+.float-text {
+    position: absolute;
+    bottom: 50px;
+    left: 42%;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+.logo-info{
+    float: left;
+    width: 15%;
+    height: auto;
+    background-color: white;
+}
+.menu-info{
+    float: right;
+    width: 30%;
+    height: 70%;
+    background-color: white;
+}
+
+.clear-float {
+    clear: both;
+    float: none;
+}
+
+.food-search {
+    background-image: url(../image/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 6%;
+}
+
+.food-search input[type="search"] {
+    width: 50%;
+    padding: 1%;
+    border-radius: 8px;
+}
+
+.explore_food {
     padding: 4% 0;
 }
 
-.box-3{
-    width: 28%;
+.box-3 {
     float: left;
+    width: 28%;
     margin: 2%;
+}
+
+.food-menu {
+    background-color: #ececec;
+    padding: 2%;
+}
+
+.food-menu-box {
+    border: 1px solid black;
+    width: 45%;
+    padding: 1%;
+    margin: 1%;
+    float: left;
+    background-color: white;
+}
+
+.food-menu-img {
+    width: 20%;
+    float: left;
+}
+
+.food-menu-decrip {
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.social ul {
+    list-style-type: none;
+}
+
+.social ul li {
+    display: inline;
+    padding: 1%;
 }
