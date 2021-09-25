@@ -1,0 +1,38 @@
+.header{
+    height: 100px;
+    display: block;
+    overflow: auto;
+    background-color: white;
+}
+.container-fluid {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.menu-info{
+    float: right;
+    width: 30%;
+    height: 70%;
+    background-color: white;
+}
+
+.logo-info{
+    float: left;
+    width: 15%;
+    height: auto;
+    background-color: white;
+}
+.find-food{
+    background-image: url(../image/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 6%;
+
+}
+.find-food input[type="search"] {
+    width: 50%;
+    padding: 1%;
+    border-radius: 8px;
+
+}
