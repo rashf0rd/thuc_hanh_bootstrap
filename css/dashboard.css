@@ -1,0 +1,36 @@
+.container-fluid {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-white {
+    color: white;
+}
+.main{
+    background-color: pink;
+}
+.text{
+    background-color: yellow;
+}
+.update{
+    background-color: yellowgreen;
+}
+.cancel{
+    background-color: orange;
+}
+.clear-float {
+    clear: both;
+    float: none;
+}
+.footer{
+    background-color: red;
+}
+

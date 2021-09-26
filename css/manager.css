@@ -1,0 +1,16 @@
+.container-fluid {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.footer{
+    background-color: red;
+}
