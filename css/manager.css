@@ -6,11 +6,36 @@
 .text-center {
     text-align: center;
 }
-
+.main-user{
+    background-color: pink;
+}
+.TB{
+    float: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.button-ADD{
+    background-color: blue;
+}
 .text-right {
     text-align: right;
 }
-
+.text-left-user{
+    background-color: pink;
+}
+.button-CP{
+    background-color: blue;
+}
+.button-UP{
+    background-color: yellowgreen;
+}
+.button-Del{
+    background-color: red;
+}
+.clear-float {
+    clear: both;
+    float: none;
+}
 .footer{
     background-color: red;
 }
