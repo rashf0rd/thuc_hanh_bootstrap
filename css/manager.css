@@ -14,15 +14,6 @@
     text-align: center;
     margin: 0 auto;
 }
-.button-ADD{
-    background-color: blue;
-}
-.text-right {
-    text-align: right;
-}
-.text-left-user{
-    background-color: pink;
-}
 .button-CP{
     background-color: blue;
 }
@@ -32,6 +23,39 @@
 .button-Del{
     background-color: red;
 }
+
+.food{
+    float: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.UP-food{
+    background-color: blue;
+}
+.Del-food{
+    background-color: orange;
+}
+.button-ADD{
+    background-color: blue;
+}
+.text-right {
+    text-align: right;
+}
+.text-left-user{
+    background-color: pink;
+}
+.category{
+    float: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.UP-cate{
+    background-color: blue;
+}
+.Del-Cate{
+    background-color: orange;
+}
+
 .clear-float {
     clear: both;
     float: none;

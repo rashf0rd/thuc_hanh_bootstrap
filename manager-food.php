@@ -31,8 +31,47 @@
             <div class="text-left-user">
                 <a>Manager Food</a>
             </div>
-            <button type="button-ADD")">add Food</button>
+            <button type="button-ADD" )">add Food</button>
         </div>
+        <table class="food" boder="1" cellspacing="0" cellpadding="2">
+            <tr>
+                <td>S.N</td>
+                <td>Tille</td>
+                <td>Image</td>
+                <td>Price</td>
+                <td>Featured</td>
+                <td>Active</td>
+                <td>Action</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Pizza</td>
+                <td>$6.00</td>
+                <td><img src="image/pizza.jpg" alt="Pizza" class="img-responsive img-curve"></td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td><button type="UP-food">Update Food</button><button type="Del-food">Delete Food</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Burger</td>
+                <td>$4.00</td>
+                <td><img src="image/burger.jpg" alt="Burger" class="img-responsive img-curve"></td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td><button type="UP-food">Update Food</button><button type="Del-food">Delete Food</button></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Momo</td>
+                <td>$5.00</td>
+                <td><img src="image/momo.jpg" alt="Momo" class="img-responsive img-curve"></td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td><button type="UP-food">Update Food</button><button type="Del-food">Delete Food</button></td>
+            </tr>
+        </table>
+        <div class="clear-float"></div>
     </div>
     <section class="footer">
         <div class="container-fluid text-center">

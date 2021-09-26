@@ -31,8 +31,43 @@
             <div class="text-left-user">
                 <a>Manager Category</a>
             </div>
-            <button type="button-ADD")">add category</button>
+            <button type="button-ADD" )">add category</button>
         </div>
+        <table class="category" boder="1" cellspacing="0" cellpadding="2">
+            <tr>
+                <td>S.N</td>
+                <td>Tille</td>
+                <td>Image</td>
+                <td>Featured</td>
+                <td>Active</td>
+                <td>Action</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Pizza</td>
+                <td><img src="image/pizza.jpg" alt="Pizza" class="img-responsive img-curve"></td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td><button type="UP-cate">Update Category</button><button type="Del-Cate">Delete Category</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Burger</td>
+                <td><img src="image/burger.jpg" alt="Burger" class="img-responsive img-curve"></td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td><button type="UP-cate">Update Category</button><button type="Del-Cate">Delete Category</button></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Momo</td>
+                <td><img src="image/momo.jpg" alt="Momo" class="img-responsive img-curve"></td>
+                <td>Yes</td>
+                <td>Yes</td>
+                <td><button type="UP-cate">Update Category</button><button type="Del-Cate">Delete Category</button></td>
+            </tr>
+            <div class="clear-float"></div>
+        </table>
     </div>
     <section class="footer">
         <div class="container-fluid text-center">
